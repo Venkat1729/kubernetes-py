@@ -29,7 +29,7 @@ class PodSpec(object):
         self._affinity = None
         self._containers = []
         self._automount_service_account_token = True
-        self._dns_policy = "Default"
+        self._dns_policy = "ClusterFirst"
         self._host_ipc = None
         self._host_network = True
         self._host_pid = None
