@@ -31,7 +31,7 @@ class PodSpec(object):
         self._automount_service_account_token = True
         self._dns_policy = "ClusterFirst"
         self._host_ipc = None
-        self._host_network = True
+        self._host_network = None
         self._host_pid = None
         self._hostname = None
         self._image_pull_secrets = None
